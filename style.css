@@ -1,0 +1,232 @@
+body {
+    margin: 0px; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.header {
+    background: #7094b7;
+    margin: 0px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 10px;
+    color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0; */
+}
+
+.navbar {
+    display: flex; 
+    align-items: center;
+    color: white;
+    margin: 0px;  
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #dc8c24;
+}
+
+.section-one{
+    background-color: #5c3026; 
+    color: white; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-one img {
+    width: 40%;
+    margin: 40px; 
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bold; 
+    color: #f9faf8
+}
+
+.subtext{
+    font-size: 18px; 
+    color: #e5e7eb
+}
+
+.section-one-text{
+    margin-left: 30px;
+    padding: 0px; 
+}
+
+.section-one-text button{
+    margin-top: 7px; 
+    width: 80px; 
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dc8c24;
+    color: white; 
+}
+
+.section-two{
+    background-color: #ffefbf;
+    color: #3c3c44;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-two-text{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px; 
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around; /* This will evenly space the cards */
+    align-items: end; /* This will center the content vertically */
+    margin: 20px; 
+}
+
+.card {
+    text-align: center; /* Center the subtext under the card */
+}
+
+.card img {
+    width: 300px; 
+    height: 300px; 
+    max-width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card div{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section-three {
+    background-color: #dc8c24;
+    display: flex; 
+    height: 30vh;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+}
+
+.quote {
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.quote-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #f9faf8;
+    display: flex;
+    
+}
+
+.author{
+    align-items: end;
+}
+
+.zuko{
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.katara {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.8);
+}
+
+.sokka{
+    box-shadow: 0 0 10px rgba(43, 43, 73, 0.8);
+}
+
+.toph {
+    box-shadow: 0 0 10px rgba(20, 160, 20, 0.8);
+}
+
+.section-four{
+    background-color: #7094b7;
+}
+
+.section-four-container{
+    background-color:#b7cee5;
+    display: flex; 
+    flex-direction: row;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+    height: 15vh; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #7094b7;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+ 
+.footer div{
+    margin: 5px;
+}
+
+.section-four-text{
+    display: flex; 
+    flex-direction: column;
+    color: white; 
+    margin-left: 20px;
+    justify-content: center;
+    align-items: start;
+    color: #3c3c44;
+
+}
+
+.four-main{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.last-button{
+    margin-top: 7px; 
+    width: 100px; 
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dc8c24;
+    color: white; 
+    margin-right: 20px;
+    
+}
+
+.button-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1
+}
